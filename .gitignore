@@ -1,3 +1,7 @@
+# Commons
+*.key
+*.cert
+
 # Logs
 logs
 *.log
