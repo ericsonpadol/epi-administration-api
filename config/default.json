@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name":"epi",
+    "module": "backoffice",
+    "contextPath": "administration",
+    "logging": { "index": "service-name", "level": "info" },
+    "timezone": "Asia/Singapore"
+  },
+  "apidoc": {
+    "debug": false
+  }
+}

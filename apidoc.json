@@ -1,0 +1,11 @@
+{
+    "name": "epi-administration-api",
+    "version": "1",
+    "description": "Express Pay Administration API",
+    "title": "EP Administration Services",
+    "url": "http://localhost:8080",
+    "template": {
+      "withCompare": false,
+      "withGenerator": true
+    }
+  }

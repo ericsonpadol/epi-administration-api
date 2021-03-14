@@ -1,0 +1,9 @@
+{
+  "app": {
+    "logging": { "index": "service-name", "level": "debug" },
+    "timezone": "Asia/Singapore"
+  },
+  "apidoc": {
+    "debug": false
+  }
+}
