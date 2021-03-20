@@ -33,6 +33,10 @@ module.exports = {
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: 'v8',
 
+  coverageThreshold: {
+    global: { branches: 20, functions: 30, lines: 50, statements: 50 },
+  },
+
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
   //   "json",

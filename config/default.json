@@ -1,8 +1,8 @@
 {
   "app": {
-    "name":"epi",
-    "module": "backoffice",
-    "contextPath": "administration",
+    "cluster":"API",
+    "module": "administration",
+    "contextPath": "backoffice",
     "logging": { "index": "service-name", "level": "info" },
     "timezone": "Asia/Singapore"
   },

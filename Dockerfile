@@ -14,6 +14,9 @@ RUN openssl req -nodes -x509 -newkey rsa:4096 -keyout server.key -out server.cer
 
 COPY . ./
 
-EXPOSE 8080
+ENV START_CMD ${START_CMD}
+ENV PORT ${PORT}
 
-CMD ["npm", "start"]
+EXPOSE ${PORT}
+
+CMD ["npm run", ${START_CMD}]
