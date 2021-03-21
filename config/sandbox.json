@@ -8,5 +8,12 @@
   },
   "apidoc": {
     "debug": false
+  },
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "secret": "admin",
+    "db_name": "epixdb",
+    "dialect": "mariadb"
   }
 }

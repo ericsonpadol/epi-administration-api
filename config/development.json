@@ -3,10 +3,17 @@
     "name":"epi",
     "module": "backoffice",
     "contextPath": "administration",
-    "logging": { "index": "service-name", "level": "info" },
+    "logging": { "index": "service-name", "level": "debug" },
     "timezone": "Asia/Singapore"
   },
   "apidoc": {
     "debug": false
+  },
+  "database": {
+    "host": "localhost",
+    "username": "root",
+    "secret": "admin",
+    "db_name": "epixdb",
+    "dialect": "mariadb"
   }
 }

@@ -7,6 +7,7 @@
     "timezone": "Asia/Singapore"
   },
   "apidoc": {
-    "debug": false
+    "debug": false,
+    "version": "v1"
   }
 }

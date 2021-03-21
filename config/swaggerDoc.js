@@ -20,8 +20,8 @@ const definition = {
   ],
   tags: [
     { name: 'Main' },
-    { name: 'User Management' },
-    { name: 'Branch Management' },
+    { name: 'User-Management' },
+    { name: 'Branch-Management' },
   ],
 };
 

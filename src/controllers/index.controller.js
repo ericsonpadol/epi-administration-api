@@ -7,4 +7,9 @@ const router = express.Router();
  */
 router.use('/main', require('./main/main.controller'));
 
+/**
+ * @description User Management Controller
+ */
+router.use('/users', require('./user/index.controller'));
+
 module.exports = router;

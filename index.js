@@ -64,6 +64,6 @@ if (
 }
 
 // api routes
-app.use(`${appPath}/api`, apiController);
+app.use(`${appPath}/api/${config.get('apidoc.version')}`, apiController);
 
 module.exports = app;
