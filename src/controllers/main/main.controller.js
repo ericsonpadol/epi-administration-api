@@ -7,11 +7,20 @@ const logger = require('../../../config/logger');
 const router = express.Router();
 
 /**
- * @swagger
- * /health:
+ * @openapi
+ * path:
+ * /main/health:
  *  get:
- *      summary: test
- *      description: test
+ *      tags: [Main]
+ *      summary: Healthcheck information.
+ *      description: Retrieve the healthcheck information of the current microservice.
+ *      responses:
+ *        200:
+ *          description: Displays the list of healthcheck info.
+ *          content:
+ *           application/json:
+ *            schema:
+ *              type: object
  */
 router.get('/health', async (req, res) => {
   logger.info(JSON.stringify({ msg: `${name} is healthy...` }));
